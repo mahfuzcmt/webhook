@@ -1,5 +1,5 @@
 <?php
-
+echo "hello";
 define('SHOPIFY_APP_SECRET', '91ec611cb6fc9c5806cfa5b1610b8e733db7bdd6d3d2140a150a1f8edb6a0a7d');
 
 function verify_webhook($data, $hmac_header)
