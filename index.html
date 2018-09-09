@@ -1,3 +1,13 @@
 <html>
   <h2> hi</h2>
+  <script>
+    alert("hello");
+    $webhookContent = "";
+$webhook = fopen('php://input', 'rb');
+while (!feof($webhook)) {
+    $webhookContent. = fread($webhook, 4096);
+}
+fclose($webhook);
+exit;
+  </script>
 </html>
